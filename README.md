@@ -8,6 +8,8 @@ Code.gov has relatively recently started providing an API, which is described <a
 
 You have to request an API key to use the API, but it is a quick proces to get one.
 
+Swagger docs can be found here: https://api.code.gov/docs/
+
 ## Related Resources
 ### Observable Data Visualization Notebooks that Use the Code.gov API are linked to from their website!
 
