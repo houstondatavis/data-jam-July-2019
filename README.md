@@ -39,3 +39,8 @@ On the code.gov <a href="https://www.code.gov/browse-projects?page=1&size=10&sor
 
 To be clear, these aren't needs code.gov has asked the public for, but they do everything out in the public and, I'm guessing based on comments in their github repositories, would likely appreciate the feedback. 
 
+### Examples:
+Licenses of NASA open-source code projects
+https://observablehq.com/@justingosses/licenses-of-open-source-nasa-code-projects-on-code-gov
+
+https://observablehq.com/@justingosses/code-gov-demo-dataset-retrieval
