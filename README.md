@@ -27,12 +27,20 @@ The link above is a repository that links to all other code.gov related reposito
 <a href="https://github.com/GSA/code-gov-stats-jupyter-notebook"> Code.gov notebooks for demoing what can be done with the API</a> There is one here that is used for getting out github stats like forks and stars that has been useful. An exported CSV file from that notebook enabled creation of <a href="https://observablehq.com/@justingosses/public-engagement-with-nasas-open-source-code-projects-on-g">this</a> Observable data visualization of popular NASA code repositories. 
 
 ## The Data
-1. Option 1: Use the code.gov API mentioned above.
-2. Option 2: Use exported static files generated from the API. These files were generated using the API in this Observable notebook <a href="https://observablehq.com/@justingosses/code-gov-demo-dataset-retrieval">here</a>. The API returns JSON. I have combined multiple JSON returned into a single big JSON as the API limits you to <1000 results each call. The JSON results are nested, so I've also flattened them into a CSV. Due to dealing with the nesting, the fields are not identical between the JSON and the CSV.
 
-The CSV that is exported from the API that will be included in this repository. It is called = flattened_all_repos_US_code.csv. It is organized by code repository should have 5000+ entries. You should be able to click on the<a href="https://github.com/houstondatavis/data-jam-July-2019/blob/master/flattened_all_repos_US_code.csv">download button on this page</a> and it will download. Note that the the CSV is flattened and some information may be lost of complicated in comparison to the JSON, but the CSV is fine to work with if you're not very comfortable working with nested JSON in the time you have.
+You have two options for working with this API, either use the API directly or work with static files created using the API. The API is more powerful and flexible, but it will take a little bit of time, at minimum to get used to.
 
-The JSON that is exported from the API that will be included in this repository. It is called = all_repos_with_nesting.json. It is organized by code repository should have 5000+ entries. You should be able to click on the<a href="https://github.com/houstondatavis/data-jam-July-2019/blob/master/all_repos_with_nesting.json">download button on this page</a> and it will download.
+#### Use the code.gov API mentioned above.
+
+The API is documented via SWAGGER on <a href="https://api.code.gov/docs/#/repo/get_repos">this website</a>, which you can submit dummy queries via a GUI. 
+
+#### Use exported static files generated from the API. 
+
+These files were generated using the API in this Observable notebook <a href="https://observablehq.com/@justingosses/code-gov-demo-dataset-retrieval">here</a>. The API returns JSON. I have combined multiple JSON returned into a single big JSON as the API limits you to <1000 results each call. The JSON results are nested, so I've also flattened them into a CSV. Due to dealing with the nesting, the fields are not identical between the JSON and the CSV.
+
+<b>The CSV</b> that is exported from the API that will be included in this repository. It is called = flattened_all_repos_US_code.csv. It is organized by code repository should have 5000+ entries. You should be able to click on the download button<a href="https://github.com/houstondatavis/data-jam-July-2019/blob/master/flattened_all_repos_US_code.csv">on this page</a> and it will download. Note that the the CSV is flattened and some information may be lost in comparison to the JSON, but the CSV is easiest to work with if you're not very comfortable working with nested JSON or API in the available time.
+
+<b>The JSON</b> that is exported from the API is included in this repository. It is called = all_repos_with_nesting.json. It is organized by code repository should have 5000+ entries. You should be able to click on the download button <a href="https://github.com/houstondatavis/data-jam-July-2019/blob/master/all_repos_with_nesting.json"> on this page</a> and it will download.
 
 ## The Challenge
 On the code.gov <a href="https://www.code.gov/browse-projects?page=1&size=10&sort=data_quality">browse page</a> you'll see that there is a nice search interface on the page. This a great user interface if you already know what you're looking for or have a good idea what might be useful to you that exists, but what if you aren't entering the page with a strong idea what could be there that would be interest to you? The current page is a little weak in this area. 
