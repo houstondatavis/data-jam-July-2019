@@ -1,7 +1,7 @@
 # data-jam-July-2019
 dataset for july 2019 data jam on a dataset of open-source projects from federal government agencies
 
-The General Services Administration (GSA) is responsible for code.gov, a site that aggregates open-source code projects from across government agencies. Code.gov <a href="https://www.code.gov/about/compliance/inventory-code">establishes</a> metadata standards for code.json to follow and where they should go in order to be automatically harvested for inclusion in code.gov. Each federal agency should be storing their code.json in a page like data.<agency name>.gov/code.json. For example, data.nasa.gov/code.json. 
+The General Services Administration (GSA) is responsible for code.gov, a site that aggregates open-source code projects from across government agencies. Code.gov <a href="https://www.code.gov/about/compliance/inventory-code">establishes</a> metadata standards for code.json to follow and where they should go in order to be automatically harvested for inclusion in code.gov. Each federal agency should be storing their code.json in a page like data.<agency name>.gov/code.json. For example, the NSA's is https://code.nsa.gov/code.json
 
 ## The Code.gov API
 Code.gov has relatively recently started providing an API, which is described <a href="https://developers.code.gov/basics.html"> here</a>.
