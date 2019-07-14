@@ -36,6 +36,8 @@ The API is documented via SWAGGER on <a href="https://api.code.gov/docs/#/repo/g
 
 #### Use exported static files generated from the API. 
 
+https://observablehq.com/@justingosses/code-gov-demo-dataset-retrieval
+
 These files were generated using the API in this Observable notebook <a href="https://observablehq.com/@justingosses/code-gov-demo-dataset-retrieval">here</a>. The API returns JSON. I have combined multiple JSON returned into a single big JSON as the API limits you to <1000 results each call. The JSON results are nested, so I've also flattened them into a CSV. Due to dealing with the nesting, the fields are not identical between the JSON and the CSV.
 
 <b>The CSV</b> that is exported from the API that will be included in this repository. It is called = flattened_all_repos_US_code.csv. It is organized by code repository should have 5000+ entries. You should be able to click on the download button<a href="https://github.com/houstondatavis/data-jam-July-2019/blob/master/flattened_all_repos_US_code.csv">on this page</a> and it will download. Note that the the CSV is flattened and some information may be lost in comparison to the JSON, but the CSV is easiest to work with if you're not very comfortable working with nested JSON or API in the available time.
