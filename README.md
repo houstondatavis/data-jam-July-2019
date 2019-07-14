@@ -10,22 +10,6 @@ You have to request an API key to use the API, but it is a quick proces to get o
 
 Swagger docs can be found here: https://api.code.gov/docs/
 
-## Related Resources
-### Observable Data Visualization Notebooks that Use the Code.gov API are linked to from their website!
-
-https://observablehq.com/search?query=%22code.gov%22
-
-### Github Repository of Useful & Related Code
-https://github.com/GSA/code-gov
-
-The link above is a repository that links to all other code.gov related repositories. A lot of the code for their websites and API is all public on github.com.
-
-### There are also some example Jupyter notebooks that are work looking at:
- 
-<a href="https://github.com/GSA/code-gov-stats">Code.gov Stats</a>
-
-<a href="https://github.com/GSA/code-gov-stats-jupyter-notebook"> Code.gov notebooks for demoing what can be done with the API</a> There is one here that is used for getting out github stats like forks and stars that has been useful. An exported CSV file from that notebook enabled creation of <a href="https://observablehq.com/@justingosses/public-engagement-with-nasas-open-source-code-projects-on-g">this</a> Observable data visualization of popular NASA code repositories. 
-
 ## The Data
 
 You have two options for working with this API, either use the API directly or work with static files created using the API. The API is more powerful and flexible, but it will take a little bit of time, at minimum to get used to.
@@ -60,8 +44,30 @@ To be clear, these aren't needs code.gov has asked the public for, but they do e
 
 You can also submit change requests for their metadata scheme, website, or API on their many github repositories. 
 
+
+## Related Resources
+
 ### Examples:
 Licenses of NASA open-source code projects
 https://observablehq.com/@justingosses/licenses-of-open-source-nasa-code-projects-on-code-gov
 
 https://observablehq.com/@justingosses/code-gov-demo-dataset-retrieval
+
+https://observablehq.com/@danieljdufour/csv-of-licenses-of-projects-on-code-gov
+
+Some of these: https://observablehq.com/search?query=%22code.gov%22
+
+### Observable Data Visualization Notebooks that Use the Code.gov API are linked to from their website!
+
+https://observablehq.com/search?query=%22code.gov%22
+
+### Github Repository of Useful & Related Code
+https://github.com/GSA/code-gov
+
+The link above is a repository that links to all other code.gov related repositories. A lot of the code for their websites and API is all public on github.com.
+
+#### There are also some example Jupyter notebooks that are work looking at:
+ 
+<a href="https://github.com/GSA/code-gov-stats">Code.gov Stats</a>
+
+<a href="https://github.com/GSA/code-gov-stats-jupyter-notebook"> Code.gov notebooks for demoing what can be done with the API</a> There is one here that is used for getting out github stats like forks and stars that has been useful. An exported CSV file from that notebook enabled creation of <a href="https://observablehq.com/@justingosses/public-engagement-with-nasas-open-source-code-projects-on-g">this</a> Observable data visualization of popular NASA code repositories. 
