@@ -27,8 +27,10 @@ The link above is a repository that links to all other code.gov related reposito
 <a href="https://github.com/GSA/code-gov-stats-jupyter-notebook"> Code.gov notebooks for demoing what can be done with the API</a> There is one here that is used for getting out github stats like forks and stars that has been useful. An exported CSV file from that notebook enabled creation of <a href="https://observablehq.com/@justingosses/public-engagement-with-nasas-open-source-code-projects-on-g">this</a> Observable data visualization of popular NASA code repositories. 
 
 ## The Data
-- Option 1: Use the code.gov API mentioned above.
-- Option 2: Use the CSV that is exported from the API that will be included in this repository. You should be able to click on it and eventually download it via a download button.
+1. Option 1: Use the code.gov API mentioned above.
+2. Option 2: Use exported static files generated from the API.
+- Use the CSV that is exported from the API that will be included in this repository. It is called = flattened_all_repos_US_code.csv. It is organized by code repository should have 5000+ entries. You should be able to click on the<a href="https://github.com/houstondatavis/data-jam-July-2019/blob/master/flattened_all_repos_US_code.csv">download button on this page</a> and it will download. Note that the the CSV is flattened and some information may be lost of complicated in comparison to the JSON, but the CSV is fine to work with if you're not very comfortable working with nested JSON in the time you have.
+- Use the JSON that is exported from the API that will be included in this repository. It is called = all_repos_with_nesting.json. It is organized by code repository should have 5000+ entries. You should be able to click on the<a href="https://github.com/houstondatavis/data-jam-July-2019/blob/master/all_repos_with_nesting.json">download button on this page</a> and it will download.
 
 ## The Challenge
 On the code.gov <a href="https://www.code.gov/browse-projects?page=1&size=10&sort=data_quality">browse page</a> you'll see that there is a nice search interface on the page. This a great user interface if you already know what you're looking for or have a good idea what might be useful to you that exists, but what if you aren't entering the page with a strong idea what could be there that would be interest to you? The current page is a little weak in this area. 
