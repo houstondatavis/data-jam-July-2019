@@ -50,8 +50,15 @@ On the code.gov <a href="https://www.code.gov/browse-projects?page=1&size=10&sor
 - Could a data visualization be added to the webpage to make it more discoverable for curious new users what is there?
 - What parts of the metadata of the code projects could be used, aggregated, cross-linked, filtered, or displayed?
 - How could user's experiences, skills, interests be used?
+- What data is suspect? 
+- What can we say about how code projects have been added over time?
+- Who published the most open-source code?
+- Are there repeat individuals associted with open-source code projects on code.gov?
+- What percentage of projects on code.gov are open-source vs. government-source?
 
 To be clear, these aren't needs code.gov has asked the public for, but they do everything out in the public and, I'm guessing based on comments in their github repositories, would likely appreciate the feedback. 
+
+You can also submit change requests for their metadata scheme, website, or API on their many github repositories. 
 
 ### Examples:
 Licenses of NASA open-source code projects
