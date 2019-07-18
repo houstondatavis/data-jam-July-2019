@@ -57,6 +57,8 @@ https://observablehq.com/@danieljdufour/csv-of-licenses-of-projects-on-code-gov
 
 Some of these: https://observablehq.com/search?query=%22code.gov%22
 
+Quick Tableau Public Notebook Using the JSON in this repository: https://public.tableau.com/profile/justin.gosses#!/vizhome/Code_govAPIquicklookv1July2019ForHoustonDataVisMeetup/FilterProjectbyAgencyTagsLanguage?publish=yes
+
 ### Observable Data Visualization Notebooks that Use the Code.gov API are linked to from their website!
 
 https://observablehq.com/search?query=%22code.gov%22
