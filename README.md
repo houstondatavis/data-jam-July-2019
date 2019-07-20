@@ -80,3 +80,6 @@ The link above is a repository that links to all other code.gov related reposito
 <a href="https://github.com/GSA/code-gov-stats">Code.gov Stats</a>
 
 <a href="https://github.com/GSA/code-gov-stats-jupyter-notebook"> Code.gov notebooks for demoing what can be done with the API</a> There is one here that is used for getting out github stats like forks and stars that has been useful. An exported CSV file from that notebook enabled creation of <a href="https://observablehq.com/@justingosses/public-engagement-with-nasas-open-source-code-projects-on-g">this</a> Observable data visualization of popular NASA code repositories. 
+
+## Sharing your work
+As an experiment to see if its any easier, I've started a markdown file in this repository for linking to online projects. You can also upload snapshots to this repository. https://github.com/houstondatavis/data-jam-July-2019/blob/master/links_to_projects.md
