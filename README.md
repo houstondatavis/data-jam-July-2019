@@ -20,9 +20,7 @@ If you have a little bit of experience working with APIs or would like to start,
 There are some examples below in JavaScript and Python, which call the API that might serve as a starting point.
 
 ### Static Datasets Created Using the Code.gov API
-You have two options for working with static files that are pre-exported  (exported July 14th, 2019) for you from the API. There is a 
-
-The flattened_all_repos_US_code_July15.csv and all_repos_with_nesting.json files were exported on July 14th using <a href="https://observablehq.com/@justingosses/code-gov-demo-dataset-retrieval">this</a> Observable Notebook that calls the API.
+You have two options for working with static files that are pre-exported  (exported July 14th, 2019) for you from the API. There is flattened_all_repos_US_code_July15.csv and all_repos_with_nesting.json which were exported on July 14th using <a href="https://observablehq.com/@justingosses/code-gov-demo-dataset-retrieval">this</a> Observable Notebook that calls the API.
 https://observablehq.com/@justingosses/code-gov-demo-dataset-retrieval
 
 The API returns JSON. I have combined multiple JSON returned into a single big JSON as the API limits you to <1000 results each call. 
