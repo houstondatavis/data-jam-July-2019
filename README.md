@@ -1,30 +1,37 @@
 # data-jam-July-2019
-dataset for july 2019 data jam on a dataset of open-source projects from federal government agencies
 
-The General Services Administration (GSA) is responsible for code.gov, a site that aggregates open-source code projects from across government agencies. Code.gov <a href="https://www.code.gov/about/compliance/inventory-code">establishes</a> metadata standards for code.json to follow and where they should go in order to be automatically harvested for inclusion in code.gov. Each federal agency should be storing their code.json in a page like data.<agency name>.gov/code.json. For example, the NSA's is https://code.nsa.gov/code.json
+#### In this data jam, we will visualize the Federal Government's Open-Source code!
 
-## The Code.gov API
+The General Services Administration (GSA) is responsible for code.gov, a site that aggregates open-source code projects from across government agencies. Code.gov <a href="https://www.code.gov/about/compliance/inventory-code">establishes</a> metadata standards for code.json to follow and where they should go in order to be automatically harvested for inclusion in code.gov. Each federal agency should be storing their code.json in a page like data.<agency name>.gov/code.json. For example, the NSA's is https://code.nsa.gov/code.json 
+
+Exporting all the repositories gets you metadata on more than 6,000 code projects.
+
+## Getting the Data
+
+### The Code.gov API
 Code.gov has relatively recently started providing an API, which is described <a href="https://developers.code.gov/basics.html"> here</a>.
 
 You have to request an API key to use the API, but it is a quick proces to get one.
 
-Swagger docs can be found here: https://api.code.gov/docs/
-
-## The Data
-
-You have two options for working with this API, either use the API directly or work with static files created using the API. The API is more powerful and flexible, but it will take a little bit of time, at minimum to get used to.
-
-#### Use the code.gov API mentioned above.
-
 The API is documented via SWAGGER on <a href="https://api.code.gov/docs/#/repo/get_repos">this website</a>, which you can submit dummy queries via a GUI. 
 
-#### Use exported static files generated from the API. 
+If you have a little bit of experience working with APIs or would like to start, working directly with the API is one way to go.
 
+### Static Datasets Created Using the Code.gov API
+You have two options for working with static files that are pre-exported  (exported July 14th, 2019) for you from the API. There is a 
+
+The flattened_all_repos_US_code_July15.csv and all_repos_with_nesting.json files were exported on July 14th using <a href="https://observablehq.com/@justingosses/code-gov-demo-dataset-retrieval">this</a> Observable Notebook that calls the API.
 https://observablehq.com/@justingosses/code-gov-demo-dataset-retrieval
 
-These files were generated using the API in this Observable notebook <a href="https://observablehq.com/@justingosses/code-gov-demo-dataset-retrieval">here</a>. The API returns JSON. I have combined multiple JSON returned into a single big JSON as the API limits you to <1000 results each call. The JSON results are nested, so I've also flattened them into a CSV. Due to dealing with the nesting, the fields are not identical between the JSON and the CSV.
+The API returns JSON. I have combined multiple JSON returned into a single big JSON as the API limits you to <1000 results each call. 
 
-<b>The CSV</b> that is exported from the API that will be included in this repository. It is called = flattened_all_repos_US_code.csv. It is organized by code repository should have 5000+ entries. You should be able to click on the download button<a href="https://github.com/houstondatavis/data-jam-July-2019/blob/master/flattened_all_repos_US_code.csv">on this page</a> and it will download. Note that the the CSV is flattened and some information may be lost in comparison to the JSON, but the CSV is easiest to work with if you're not very comfortable working with nested JSON or API in the available time.
+The JSON results are also nested, so I've also flattened them into a CSV. 
+
+<b>Due to dealing with the nesting, the fields are not identical between the JSON and the CSV.</b>.
+
+#### The CSV is there if your preferred data visualization tool simply can't handle JSON and you don't want to mess with the API. However, the CSV conversion isn't perfect, so the JSON will most likely be the easiest to work with. 
+
+If you use Tableau for example, definitely use the JSON. Same with Python, JavaScript, R, etc.
 
 <b>The JSON</b> that is exported from the API is included in this repository. It is called = all_repos_with_nesting.json. It is organized by code repository should have 5000+ entries. You should be able to click on the download button <a href="https://github.com/houstondatavis/data-jam-July-2019/blob/master/all_repos_with_nesting.json"> on this page</a> and it will download.
 
