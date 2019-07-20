@@ -14,6 +14,7 @@ Code.gov has relatively recently started providing an API, which is described <a
 You have to request an API key to use the API, but it is a quick proces to get one.
 
 The API is documented via SWAGGER on <a href="https://api.code.gov/docs/#/repo/get_repos">this website</a>, which you can submit dummy queries via a GUI. 
+ACtually try here for swagger = https://api.code.gov/docs/#/terms/get_terms
 
 If you have a little bit of experience working with APIs or would like to start, working directly with the API is one way to go.
 
