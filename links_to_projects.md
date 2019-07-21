@@ -7,3 +7,6 @@ Add what you want. Add a link by forking this repository, editing this file and 
 https://observablehq.com/@justingosses/code-gov-demo-dataset-retrieval
 
 2. Justin Gosses - Quick Tableau Public Notebook Using the JSON in this repository to enable filtered results by Orgs, Tags, and Language: https://public.tableau.com/profile/justin.gosses#!/vizhome/Code_govAPIquicklookv1July2019ForHoustonDataVisMeetup/FilterProjectbyAgencyTagsLanguage?publish=yes
+
+3. Matt Francsis - Code Project Activity Levels per Government Agency:
+https://github.com/mkfrancsis/stash/tree/master/DataJam
