@@ -12,3 +12,5 @@ https://observablehq.com/@justingosses/code-gov-demo-dataset-retrieval
 https://github.com/mkfrancsis/stash/tree/master/DataJam
 
 4. Tableau Notebook with all the charts made during the data jam. https://public.tableau.com/views/Code_govAPIAllVisualsJuly2019ForHoustonDataVisMeetup/StatusTime?:embed=y&:display_count=yes&:origin=viz_share_link
+
+5. <a href="https://github.com/tinaprisma/data-jam-July-2019">Valentina</a> - bar charts by language: https://github.com/houstondatavis/data-jam-July-2019/blob/master/AgencyLanguages.ipynb
